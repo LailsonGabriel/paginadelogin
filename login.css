@@ -1,0 +1,72 @@
+body {
+  background: url("login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+form {
+  line-height: 30px;
+  position: relative;
+  top: 190px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Righteous;
+  letter-spacing: 5px;
+}
+
+form label {
+  text-align: center;
+  display: block;
+}
+
+.bg {
+  color: white;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  height: 250px;
+  width: 400px;
+  box-shadow: black 2px 0px 30px 1px;
+}
+
+form button {
+  font-size: 15px;
+  margin: auto;
+  margin-top: 70px;
+  display: block;
+  font-family: righteous;
+  background: blueviolet;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+form input {
+  text-align: center;
+  color: white;
+  border: none;
+  background: rgba(0, 0, 0, 0.4);
+  height: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+form p a {
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+form p a:hover {
+  color: blueviolet;
+}
+
+form p {
+  font-size: 12px;
+  margin-top: -55px;
+}
